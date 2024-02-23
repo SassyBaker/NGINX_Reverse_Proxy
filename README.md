@@ -60,3 +60,6 @@ Get lets Cert
 Wild Card Cert
 
     certbot certonly   --agree-tos   --email letsencrypt@example.com   --manual   --preferred-challenges=dns   -d example.com    -d *.example.com   --server https://acme-v02.api.letsencrypt.org/directory
+
+
+https://toolbox.googleapps.com/apps/dig/#TXT/_acme-challenge.example.com
