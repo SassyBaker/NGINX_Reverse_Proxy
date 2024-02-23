@@ -37,4 +37,24 @@ If the fingerprint is different, remove the file.
     apt update
     apt install nginx
 
+## Helpful Commands
+### Verifying config
+Check conf file
 
+    nginx -t
+
+Load new confs
+
+    nginx -s reload
+
+## Install Let's Encrypt Certs
+Install certbot
+
+    apt install certbot python3-certbot-nginx
+
+Get lets Cert
+
+    certbot --nginx -d example.com www.example.com
+Wild Card Cert
+
+    certbot certonly   --agree-tos   --email letsencrypt@example.com   --manual   --preferred-challenges=dns   -d example.com    -d *.example.com   --server https://acme-v02.api.letsencrypt.org/directory
