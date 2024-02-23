@@ -21,6 +21,8 @@
     uid                      nginx signing key <signing-key@nginx.com>
 If the fingerprint is different, remove the file. 
 
+![img.png](img.png)
+
  If you would like to use mainline nginx packages, run the following command instead:
 
     echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] \
