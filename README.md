@@ -22,7 +22,6 @@
 If the fingerprint is different, remove the file. 
 
 ![img.png](img.png)
-![img.jpg](img.jpg)
 
  If you would like to use mainline nginx packages, run the following command instead:
 
